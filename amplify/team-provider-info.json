@@ -1,0 +1,23 @@
+{
+    "zlinks": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-zectorlinks-zlinks-232146-authRole",
+            "UnauthRoleArn": "arn:aws:iam::144954585048:role/amplify-zectorlinks-zlinks-232146-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::144954585048:role/amplify-zectorlinks-zlinks-232146-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-zectorlinks-zlinks-232146-deployment",
+            "UnauthRoleName": "amplify-zectorlinks-zlinks-232146-unauthRole",
+            "StackName": "amplify-zectorlinks-zlinks-232146",
+            "StackId": "arn:aws:cloudformation:us-east-1:144954585048:stack/amplify-zectorlinks-zlinks-232146/13f37b80-02cc-11eb-b582-12c1d85cca19",
+            "AmplifyAppId": "d17juymnxki90v"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d17juymnxki90v",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
