@@ -7,6 +7,7 @@ const Link = styled.a`
   text-align: center;
   border: none;
   width: 100%;
+  color: black;
   
   @media only screen and (min-width: 750px){
     width: 40%;
