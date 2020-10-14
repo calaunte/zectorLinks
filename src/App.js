@@ -37,7 +37,7 @@ function App() {
       <Link className="button" href="https://www.zector.io/about">Learn more about Zector</Link>
       <Link className="button" href="https://www.zector.io/services">Zector's Services</Link>
       <Link className="button" href="https://www.zector.io/">Zector's Process</Link>
-      <Link className="button" href="https://blog.zector.io/">Check out Zector's latest blog posts</Link>
+      <Link className="button" href="https://www.zector.io/blog">Check out Zector's latest blog posts</Link>
       <Link className="button" href="https://form.jotform.com/202067012412135">Ready to build an app? Get in touch</Link>
       </div>
       </div>
