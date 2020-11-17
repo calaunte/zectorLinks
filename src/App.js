@@ -8,9 +8,11 @@ const Link = styled.a`
   border: none;
   width: 100%;
   color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
   
   @media only screen and (min-width: 750px){
-    width: 40%;
+    width: 45%;
   }
 
   :hover {
@@ -38,7 +40,7 @@ function App() {
       <Link className="button" href="https://www.zector.io/services">Zector's Services</Link>
       <Link className="button" href="https://www.zector.io/">Zector's Process</Link>
       <Link className="button" href="https://www.zector.io/blog">Check out Zector's latest blog posts</Link>
-      <Link className="button" href="https://creative-producer-8722.ck.page/e8ac3e7b71">Interested in becoming a Software Engineer? Join our email list!</Link>
+      <Link className="button" href="https://creative-producer-8722.ck.page/e8ac3e7b71">Interested in Software Engineering?<br/> Join our email list!</Link>
       <Link className="button" href="https://form.jotform.com/202067012412135">Ready to build an app? Get in touch</Link>
       </div>
       </div>
