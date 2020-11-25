@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './zector.png'
 import styled from 'styled-components'
+//
 
 const Link = styled.a`
   margin-bottom: 30px;
