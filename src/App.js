@@ -23,18 +23,27 @@ const Link = styled.a`
 
 const Contain = styled.div`
 height: 100%;
-padding-bottom: 180px;
+padding-bottom: 250px;
 @media only screen and (min-width: 750px){
   height: 100vh;
   padding: 0;
 }
 `
 
+const Section = styled.section`
+  padding-bottom: 1000px !important;
+  height: 100vh !important;
+
+  @media only screen and (min-width: 750px){
+    padding-bottom: 0;
+  }
+`
+
 function App() {
   return (
     <Contain>
-      <section className="section" style={{backgroundColor: `#1B1B1B`, height: `100%`, width: `100%`}}>
-      <div className="container">
+      <Section className="section" style={{backgroundColor: `#1B1B1B`, height: `100%`, width: `100%`}}>
+      <div>
       <div style={{display: `flex`, flexDirection: `column`, alignItems: `center`}}>
       <img src={logo} alt="zector logo" width="300" height="60" style={{marginBottom: `75px`, textAlign: `center`}}/>
       <Link className="button" href="https://www.zector.io/about">Learn more about Zector</Link>
@@ -46,7 +55,7 @@ function App() {
       <Link className="button" href="https://form.jotform.com/202067012412135">Ready to build an app? Get in touch</Link>
       </div>
       </div>
-    </section>
+    </Section>
     </Contain>
   );
 }
