@@ -46,7 +46,7 @@ function App() {
       <div>
       <div style={{display: `flex`, flexDirection: `column`, alignItems: `center`}}>
       <img src={logo} alt="zector logo" width="300" height="60" style={{marginBottom: `75px`, textAlign: `center`}}/>
-      <Link className="button" href="https://form.jotform.com/202067012412135">Ready to build an app? Get in touch</Link>
+      <Link className="button" href="https://forms.office.com/r/tJCkeQj9wJ">Ready to build an app? Get in touch</Link>
       <Link className="button" href="https://www.enjoycoin.io/">Subscribe to Enjoy Coin's email list</Link>
       <Link className="button" href="https://www.zector.io/">Learn more about Zector</Link>
       </div>
